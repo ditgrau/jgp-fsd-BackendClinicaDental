@@ -4,7 +4,6 @@ const PORT = 5000;
 const db = require ('./db');
 const router = require ('./router');
 
-
 app.use (express.json());
 app.use (router);
 
